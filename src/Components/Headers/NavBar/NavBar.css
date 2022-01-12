@@ -1,0 +1,89 @@
+.header{
+    height: 100px;
+}
+
+.header .navbar{
+    z-index: 3500;
+    transition: 0.3s;
+}
+
+.header .navbar .brand-logo{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.header .nav-item .nav-link{
+    margin: 0 10px;
+    color: black !important;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.header .nav-item .nav-link.user-avatar{
+    width: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.header .nav-item .nav-link.login-btn {
+    background-color: #6c5ce7;
+    color: white !important;
+    padding: 5px 15px;
+    border-radius: 50px;
+    border: 5px solid #6c5ce7;
+    transition: 0.3s;
+}
+
+.header .nav-item .nav-link.login-btn:hover {
+    background-color: black;
+    color: white !important;
+}
+
+.header .navbar-nav{
+    align-items: center;
+}
+
+#loggedIn-user-info {
+    width: fit-content;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 20px 30px;
+    border-radius: 10px;
+    position: fixed;
+    z-index: 100;
+    right: 20px;
+    top: 90px;
+}
+
+#loggedIn-user-info img {
+    border-radius: 100%;
+    width: 100px;
+}
+
+.logout-btn{
+    border: 1px solid #6c5ce7;
+    padding: 5px 20px;
+    background: #ffffff;
+    color: #6c5ce7;
+    font-weight: 500;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.logout-btn:hover{
+    background: #6c5ce7;
+    color: #ffffff;
+}
+
+/* Responsive css */
+
+@media (max-width: 991px){
+    
+    .loggedIn-user-info{
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    .header .navbar .brand-logo{
+        font-size: 24px;
+    }
+}

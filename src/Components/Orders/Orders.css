@@ -1,0 +1,15 @@
+.orders-align{
+    margin-top: 20px;
+    width: 70%;
+    margin-left: 300px;
+    
+
+}
+.booking-info input {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.pay-with label{
+    margin-right: 20px;
+}
